@@ -79,6 +79,7 @@ a[href^="mailto:" ] {
   border-right: 9px solid  #fff ;
   border-bottom: 176px solid  #fff;
   border-left: 9px solid  #fff ;
+  /*margin:0 9px 176px;*/
   padding:162px 47px 48px 49px;
   background-image: url("../images/lotus-flower.jpg");
   /*background-image: url("../images/cover.jpg");*/
