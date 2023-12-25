@@ -184,7 +184,7 @@ a[href^="mailto:" ] {
   height: 554px;
 }
 
-.card-link { 
+.card-link {
   display: block;
   height: 100%;
   text-decoration: none;
@@ -227,7 +227,7 @@ a[href^="mailto:" ] {
   color: #fff;
   font-weight: 700;
   font-size: 22px;
-  line-height: 1.2; 
+  line-height: 1.2;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -249,10 +249,9 @@ a[href^="mailto:" ] {
 
 .about {
   display: grid;
-  /*разделение посчитано пропорцией с макета*/
-  grid-template-columns: 1fr 1.96fr;
+  grid-template-columns: 1fr 1.96fr; /*разделение посчитано пропорцией с макета*/
   gap:25px;
-  padding:0 21px 0 9px; 
+  padding:0 21px 0 9px;
 }
 
 .about__column {
