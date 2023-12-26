@@ -239,7 +239,7 @@
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 1.97fr; 
+  grid-template-columns: 1fr 1.97fr;
   gap: 25px;
   padding: 0 21px 1px 9px;
 }
@@ -256,7 +256,7 @@
   justify-content: center;
   align-items: center;
   height: 237px;
-  margin: 0 45px 0 70px; 
+  margin: 0 45px 0 70px;
   border-radius: 50%;
   background-color: black;
 }
