@@ -23,12 +23,15 @@
 }
 
 .header__link {
+  border-bottom: 1px solid #000;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
+  text-decoration: none;
 }
 
 .header__link_active .header__link {
+  border-bottom: none;
   text-decoration: none;
 }
 
@@ -48,22 +51,13 @@
 
 .contacts-list {
   padding-top: 3px;
+  padding-left: 180px;
   line-height: 1.35;
   list-style: none;
 }
 
-.address_rihgt {
-  padding-left: 180px;
-}
-
-a[href^="tel:"] {
-  border-bottom: 1px solid #000;
-  text-decoration: none;
-}
-
-a[href^="mailto:"] {
-  border-bottom: 1px solid #000;
-  text-decoration: none;
+.address {
+  border-bottom: none;
 }
 
 .cover {
@@ -74,7 +68,7 @@ a[href^="mailto:"] {
   border-right: 9px solid #fff;
   border-bottom: 176px solid #fff;
   border-left: 9px solid #fff;
-  padding: 162px 49px 48.8px 47px;
+  padding: 162px 49px 48px 47px;
   background-image: url("../images/lotus-flower.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,6 +122,7 @@ a[href^="mailto:"] {
   z-index: 2;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0.4px;
 }
 
 .cover__description-text {
@@ -149,13 +144,14 @@ a[href^="mailto:"] {
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
+  line-height: 26px;
   text-align: center;
   text-transform: uppercase;
   background: transparent;
 }
 
 .lots {
-  margin-bottom: 180px;
+  margin-bottom: 177px;
   padding: 0 33px;
 }
 
@@ -189,13 +185,13 @@ a[href^="mailto:"] {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   margin-top: 27px;
   padding: 48px 35px 46px 39px;
 }
 
 .card_type_film {
-  gap: 236px;
   background-image: url("../images/card-lot-01-copy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,7 +204,6 @@ a[href^="mailto:"] {
 }
 
 .card_type_picture {
-  gap: 91px;
   background-image: url("../images/card-lot-03-copy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,16 +229,19 @@ a[href^="mailto:"] {
 
 .lots__look-more-link {
   display: block;
-  padding: 56px 0 0 39px;
+  margin: 56.2px 803px 0 39px;
+  border-bottom: 1px solid #000;
+  padding-bottom:1px;
   font-size: 20px;
   line-height: 1.15;
+  text-decoration: none;
 }
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 1.97fr; /*разделение посчитано пропорцией с макета*/
+  grid-template-columns: 1fr 1.97fr; 
   gap: 25px;
-  padding: 0 21px 0 9px;
+  padding: 0 21px 1px 9px;
 }
 
 .about__column {
@@ -258,7 +256,7 @@ a[href^="mailto:"] {
   justify-content: center;
   align-items: center;
   height: 237px;
-  margin: 0 45px 0 70px; /*центр левой колонки по макету*/
+  margin: 0 45px 0 70px; 
   border-radius: 50%;
   background-color: black;
 }
@@ -311,12 +309,15 @@ a[href^="mailto:"] {
 }
 
 .footer__menu-link {
+  border-bottom: 1px solid #000;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
+  text-decoration: none;
 }
 
 .footer__menu-link_active .footer__menu-link {
+  border-bottom: none;
   text-decoration: none;
 }
 
