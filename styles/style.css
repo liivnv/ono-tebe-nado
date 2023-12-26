@@ -229,20 +229,19 @@ a[href^="mailto:"] {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
 }
 
 .lots__look-more-link {
   display: block;
-  padding-top: 56px;
-  padding-left: 39px;
+  padding: 56px 0 0 39px;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
 }
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 1.96fr; /*разделение посчитано пропорцией с макета*/
+  grid-template-columns: 1fr 1.97fr; /*разделение посчитано пропорцией с макета*/
   gap: 25px;
   padding: 0 21px 0 9px;
 }
