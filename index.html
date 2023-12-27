@@ -27,22 +27,15 @@
         <img class="header__logo-image"
         src="./images/logo.svg"  
         alt="логотип">
-    </a>  
-    <ul class="contacts-list address_rihgt">
-      <li>
-        <a href="tel:+99995555555" class="header__link">+9 999 555 5555</a>
-      </li>
-      <li>
-        <a href="mailto:info@sobaka.ge" class="header__link">info@sobaka.ge</a>
-      </li>
-      <li>
-        <address class="header__link address">
-          наб. Принсенграхт 263-265,<br> Амстердам
-        </address>
-      </li>
-    </ul>
+    </a> 
+    <address class="address header__address">
+      <a href="tel:+99995555555" class="header__link">+9 999 555 5555</a>
+      <br>
+      <a href="mailto:info@sobaka.ge" class="header__link">info@sobaka.ge</a>
+      <br>
+      <p>наб. Принсенграхт 263-265,<br> Амстердам</p>
+    </address> 
     </header>
-
     <main>
       <section class="cover content-section ">
         <div class="overlay">
@@ -62,7 +55,7 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">
+          <button type="button" class="bet-button">
             Сделать ставку
           </button>
         </div>
@@ -77,9 +70,9 @@
               <article class="card card_type_film">
                 <div class="overlay">
                 </div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который  бросил киношколу
-                </h2>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, 
                   что режиссёр — Пол Томас Андерсон?
@@ -92,9 +85,9 @@
               <article class="card card_type_book">
                 <div class="overlay">
                 </div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
                   В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
@@ -108,9 +101,9 @@
               <article class="card card_type_picture">
                 <div class="overlay">
                 </div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
                   Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — 
@@ -131,9 +124,9 @@
             alt="белый логотип">
           </div>
           <div class="about_column">
-          <h3 class="about__title">
+          <h2 class="about__title">
             Об аукционе
-          </h3>
+          </h2>
           <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
             Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка 
@@ -148,19 +141,13 @@
           </div>
       </section>
       <footer class="footer content-section">
-        <ul class="footer-contacts-list">
-          <li>
-            <a href="tel:+99995555555" class="header__link">+9 999 555 5555</a>
-          </li>
-          <li>
-            <a href="mailto:info@sobaka.ge" class="header__link">info@sobaka.ge</a>
-          </li>
-          <li>
-            <address class="header__link address">
-              наб. Принсенграхт 263-265,<br> Амстердам
-            </address>
-          </li>
-        </ul>
+        <address class="address">
+          <a href="tel:+99995555555" class="header__link">+9 999 555 5555</a>
+          <br>
+          <a href="mailto:info@sobaka.ge" class="header__link">info@sobaka.ge</a>
+          <br>
+          <p>наб. Принсенграхт 263-265,<br> Амстердам</p>
+        </address>
         <nav class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-list-item footer__menu-link_active">
